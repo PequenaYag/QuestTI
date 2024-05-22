@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <div class="botao">
+      <ion-button fill="clear" color="light" (click)="home()">Voltar
+        <ion-icon slot="start" name="chevron-back" color="light"></ion-icon>
+      </ion-button>
+    </div>
+    <div class="text">
+      <ion-title>Cadastro</ion-title>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form>
+    <ion-item lines="full">
+      <ion-input label="Nome Completo" type="text" labelPlacement="stacked" required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-input label="E-mail" type="email" labelPlacement="stacked" placeholder="exemplo@email.com"
+        required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-input label="Senha" type="password" labelPlacement="stacked" required>
+        <ion-input-password-toggle slot="end"></ion-input-password-toggle>
+      </ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-input label="Confirme sua Senha" type="password" labelPlacement="stacked" required>
+        <ion-input-password-toggle slot="end"></ion-input-password-toggle>
+      </ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-input label="CPF" type="number" labelPlacement="stacked" placeholder="000.000.000-00" required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-input label="Data de Nascimento" type="date" labelPlacement="stacked" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-select interface="popover" placeholder="Sexo">
+        <ion-select-option value="Masculino">Masculino</ion-select-option>
+        <ion-select-option value="Feminino">Feminino</ion-select-option>
+        <ion-select-option value="Outro">Outro</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-button type="submit" color="primary" expand="block" (click)="home()">Cadastrar</ion-button>
+  </form>
+</ion-content>

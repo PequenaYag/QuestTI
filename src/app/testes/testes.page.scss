@@ -1,0 +1,47 @@
+.botao {
+  width: auto;
+  height: 50px;
+  background: red;
+  border-radius: 25px;
+
+}
+
+.texto {
+  font-size: 50px;
+}
+
+.navbar1 {
+  --background: rgb(0, 36, 237);
+  --background: linear-gradient(35deg, rgba(0, 36, 237, 1) 9%, rgba(4, 250, 236, 1) 50%, rgba(0, 0, 108, 1) 84%);
+}
+
+.navbar2 {
+  --background: rgb(0, 36, 237);
+  --background: radial-gradient(circle, rgba(0, 36, 237, 1) 9%, rgba(4, 250, 236, 1) 50%, rgba(0, 0, 108, 1) 84%);
+}
+
+.navbar3 {
+  --background: rgb(4, 250, 236);
+  --background: linear-gradient(35deg, rgba(4, 250, 236, 1) 0%, rgba(0, 36, 237, 1) 50%, rgba(0, 0, 108, 1) 100%);
+}
+
+.navbar4 {
+  --background: rgb(0, 0, 0);
+  --background: linear-gradient(172deg, rgba(0, 0, 0, 1) 0%, rgba(0, 41, 75, 1) 57.99999999999999%, rgba(3, 26, 67, 1) 59%, rgba(0, 8, 36, 1) 80%);
+
+}
+
+.navbar5 {
+  --background: rgb(121, 166, 204);
+  --background: radial-gradient(circle, rgba(121, 166, 204, 1) 0%, rgba(62, 110, 149, 1) 26%, rgba(33, 58, 102, 1) 57%, rgba(12, 26, 74, 1) 80%);
+}
+
+.navbar6 {
+  --background: rgb(121, 166, 204);
+  --background: linear-gradient(177deg, rgba(121, 166, 204, 1) 0%, rgba(62, 110, 149, 1) 26%, rgba(33, 58, 102, 1) 57%, rgba(12, 26, 74, 1) 80%);
+}
+
+.navbar7 {
+  --background: rgb(121, 166, 204);
+  --background: linear-gradient(233deg, rgba(121, 166, 204, 1) 0%, rgba(62, 110, 149, 1) 26%, rgba(33, 58, 102, 1) 57%);
+}
